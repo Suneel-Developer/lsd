@@ -1,6 +1,7 @@
 import Hero from "./components/Home/Hero";
 import Products from "./components/Home/Products";
 import Footer from "./components/Footer";
+import CookiePopup from "./components/CookiePopup";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Hero />
         <Products />
       </div>
+      <CookiePopup />
       <Footer />
     </>
   );

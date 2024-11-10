@@ -7,30 +7,30 @@ const Footer = () => {
     <footer className="px-4 py-12 bg-[#717cc0]">
       <div className="max-w-[1200px] w-full mx-auto flex flex-col md:flex-row gap-14">
         <div className="w-full md:w-[30%] flex flex-col items-center gap-5 md:border-r border-white">
-          <h2 className="text-white text-[28px] text-center font-normal bowlbyonesc mb-2">
+          <Link href="/" className="text-white text-[28px] text-center font-normal bowlbyonesc mb-2">
             Sitemap
-          </h2>
+          </Link>
 
           <Link
-            href="#"
+            href="/cookiedirection"
             className="text-white text-base font-normal text-center transform hover:scale-125 transition duration-500 w-fit"
           >
             Cookie-Richtlinie (EU)
           </Link>
           <Link
-            href="#"
+            href="/paymentmethods"
             className="text-white text-base font-normal text-center transform hover:scale-125 transition duration-500 w-fit"
           >
             Zahlungsarten
           </Link>
           <Link
-            href="#"
+            href="/shippingmethods"
             className="text-white text-base font-normal text-center transform hover:scale-125 transition duration-500 w-fit"
           >
             Versandarten
           </Link>
           <Link
-            href="#"
+            href="/imprint"
             className="text-white text-base font-normal text-center transform hover:scale-125 transition duration-500 w-fit"
           >
             Impressum
