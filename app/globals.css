@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.bowlbyonesc {
+  font-family: "Bowlby One SC", sans-serif;
+}
+
+.bg {
+  background: linear-gradient(
+    13deg,
+    rgba(92, 140, 154, 1) 9%,
+    rgba(111, 170, 186, 1) 24%,
+    rgba(171, 219, 231, 1) 100%
+  );
+}
+
+.elementor-animation-pulse:hover {
+  animation-name: elementor-animation-pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes elementor-animation-pulse {
+  25% {
+      transform: scale(1.1)
+  }
+
+  75% {
+      transform: scale(.9)
+  }
+}
