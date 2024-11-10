@@ -44,7 +44,7 @@ const CookiePopup = () => {
               Browsing-Erlebnis zu verbessern und um (nicht) personalisierte
               Werbung anzuzeigen. Wenn du nicht zustimmst oder die Zustimmung
               widerrufst, kann dies bestimmte Merkmale und Funktionen
-              beeinträchtigen. Mit dem Klick auf "Akzeptieren", bestätigst du
+              beeinträchtigen. Mit dem Klick auf &quot;Akzeptieren&quot;, bestätigst du
               deine Volljährigkeit.
             </p>
 
