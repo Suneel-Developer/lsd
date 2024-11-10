@@ -33,13 +33,13 @@ const Products = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:px-4 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:px-4 mt-10">
         {productsdata.map((product, index) => (
           <div
             key={index}
-            className="flex sm:items-end gap-0 sm:gap-8 cursor-pointer flex-col sm:flex-row"
+            className="flex md:items-end gap-0 md:gap-8 cursor-pointer flex-col md:flex-row"
           >
-            <div className="w-full sm:w-[192px] transform hover:-translate-y-2 transition duration-300">
+            <div className="w-full md:w-[192px] transform hover:-translate-y-2 transition duration-300">
               <img
                 src={product.image}
                 alt={product.name}
@@ -49,8 +49,8 @@ const Products = () => {
             </div>
 
             <div className="pb-6">
-              <div className="flex flex-row sm:flex-col items-end sm:items-start gap-1 flex-wrap mb-4">
-                <h2 className="text-white text-[32px] sm:text-[22px] leading-[24px] sm:leading-[20px] font-normal bowlbyonesc">
+              <div className="flex flex-row md:flex-col items-end md:items-start gap-1 flex-wrap mb-4">
+                <h2 className="text-white text-[32px] md:text-[22px] leading-[24px] md:leading-[20px] font-normal bowlbyonesc">
                   {product.quantity}
                 </h2>
 
@@ -60,7 +60,7 @@ const Products = () => {
               </div>
 
               <button className="px-3 py-1 flex justify-center items-center text-white font-normal text-[15px] text-center rounded-[30px] bg-[#717cc0] transition-opacity duration-300 hover:opacity-90">
-                <span className="mt-1">Mehr erfahren</span>
+                <span className="mt-1 whitespace-nowrap">Mehr erfahren</span>
               </button>
             </div>
           </div>
